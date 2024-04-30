@@ -1,0 +1,15 @@
+#a {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-black {
+    background-color: #292732;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
+    gap: 20px;
+}

@@ -1,0 +1,28 @@
+/* Estilo geral */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(150, 144, 144);
+}
+
+.superior {
+  background-color: black;
+  background-repeat: no-repeat;
+  height: 692px;
+}
+
+.menu {
+  background-color: #292732;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.inferior img {
+  width: 360px;
+  background-color: aliceblue;
+}
