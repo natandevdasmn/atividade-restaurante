@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900&display=swap');
+  
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+#menu-branco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 74px;
+}
+
+#logo {
+    padding-left: 45px;
+    width: 133px;
+    height: 54px;
+}
+
+#busca {
+    width: 409px;
+    height: 38px;
+}
+
+#busca input {
+    padding-left: 30px;
+}
+
+#buscar-header {
+    width: 409px;
+    height: 38px;
+    border-radius: 20px;
+    border: 1px solid #1A275A;
+}
+
+#opcoes {
+    width: 402px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#text-opcoes {
+    text-decoration: none;
+    font-size: 14px;
+    color: #212121;
+    font-weight: bolder;
+}
+
+#icone {
+    width: 150px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 45px;
+}
+
+#menu-azul {
+    background-color: #1A275A;
+    height: 37px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#opcoes-menu-azul {
+    width: 916px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.texto-menu-azul {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+}
