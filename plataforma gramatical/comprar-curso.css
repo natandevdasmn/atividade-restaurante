@@ -86,18 +86,94 @@
     font-weight: bolder;
 }
 
-.conteudo-cursos {
-    display: grid;
+.container {
+    display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 55px;
+    padding-bottom: 130px;
+    gap: 50px;
 }
 
-.formatacao {
-    padding-top: 15px;
-    padding-bottom: 80px;
+#imagem-curso {
+    width: 714px;
+    height: 404px;
+}
+
+#titulo-descricao-curso {
+    padding-top: 10px;
+}
+
+#titulo-curso {
+    font-size: 22px;
+}
+
+#descricao-curso {
+    color: #212121;
+    font-size: 19px;
+    width: 646px;
+}
+
+#preco-carrinho {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 714px;
+    padding-top: 15px;
+}
+
+#preco {
+    display: flex;
+    gap: 15px;
+}
+
+#preco-novo {
+    font-size: 25px;
+}
+
+#preco-antigo {
+    font-size: 25px;
+    color: 
+    #858585;
+}
+
+#favorito-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#botao-favorito {
+    width: 26px;
+    height: 26px;
+}
+
+#botao-adicionar-carrinho {
+    color: white;
+    border: 0px;
+    background-color: #170F49;
+    border-radius: 13px;
+    width: 205px;
+    height: 36px;
+}
+
+#avaliacao {
+    display: flex;
+    padding-top: 12px;
+    gap: 10px;
+    width: 170px;
+    font-size: 15px;
+}
+
+#vantagem-curso {
+    width: 572px;
+    height: 256px;
+}
+
+.estrelas {
+    width: 15px;
+    height: 15px;
 }
 
 .rodape {
